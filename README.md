@@ -19,13 +19,21 @@ stream = pingen("#fff", "13", null, false);
 ```
 
 ### Example server api
-`/:size/:color/:icon/marker.png?text=string`
+`GET localhost:3000/:size/:color/:icon/marker.png?text=string`
+
+![image](https://cloud.githubusercontent.com/assets/848347/2747447/108d1674-c76c-11e3-86f1-e1dccb989bbc.png)
 
 `/2x/ccc/fa-microphone/marker.png`
-![image](https://cloud.githubusercontent.com/assets/848347/2747447/108d1674-c76c-11e3-86f1-e1dccb989bbc.png)
-`/2x/2A94D6/fa-microphone/marker.png`
+#
+
 ![image](https://cloud.githubusercontent.com/assets/848347/2747450/2c3d2148-c76c-11e3-89bc-6a982c2fab9a.png)
-`/1x/green/fa-home/marker.png`
+
+`/2x/2A94D6/fa-microphone/marker.png`
+#
 ![image](https://cloud.githubusercontent.com/assets/848347/2747453/53bc8f06-c76c-11e3-89cb-5e0bd134bccd.png)
-`/2x/F3AE4E/marker.png?text=5`
+
+`/1x/green/fa-home/marker.png`
+#
 ![image](https://cloud.githubusercontent.com/assets/848347/2747457/71594770-c76c-11e3-9380-ee293df6144b.png)
+
+`/2x/F3AE4E/marker.png?text=5`
