@@ -8,6 +8,8 @@ Generate map pins with font-awesome icons, text, and dynamic colors.
 ### Install
 with npm do `npm install pingen`
 
+Uses [node-canvas](https://github.com/learnboost/node-canvas), which depends on Cairo. 
+
 ### Usage
 ```
 var pingen = require('pingen');
