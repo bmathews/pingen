@@ -1,0 +1,16 @@
+{
+  "name": "pingen",
+  "version": "0.0.0",
+  "description": "generate map pin images",
+  "main": "pingen.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "moonsspoon",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.0.0",
+    "canvas": "^1.1.3",
+    "tinycolor2": "^0.9.17"
+  }
+}
